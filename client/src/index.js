@@ -4,6 +4,7 @@ import Home from "./views/Home/Home.js";
 import "./index.css";
 import Singup from "./views/Singup/Singup.js";
 import Login from "./views/Login/Login.js";
+import Buy from "./views/Buy/Buy.js"
 
 const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     {
         "path":"/login",
         "element":<Login/>
+    },
+    {
+        "path": "/buy/:id",
+        "element":<Buy/>
     }
 
 ]);

@@ -22,12 +22,16 @@
 .btn-buynow{
     background-color: black;
     color: white;
-    padding: 10px auto;
+    padding: 5px auto;
     border-radius: 10px;
     display: block;
     margin: 10px auto;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    
 
 }
 
