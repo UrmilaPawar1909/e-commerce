@@ -1,0 +1,36 @@
+.product-card{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    width: 300px;
+}
+
+.product-img{
+    height:150px;
+    display: block;
+    margin: 10px auto;
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.btn-buynow{
+    background-color: black;
+    color: white;
+    padding: 10px auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.product-info{
+    text-align: center;
+}
